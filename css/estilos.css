@@ -1,0 +1,710 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+a:link   
+{   
+    text-decoration:none;
+    color: #000;
+}  
+
+#containerimg0{
+    background: url(../img/wall1.jpg) center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#containerimg1{
+    background: url(../img/backgrounda11.jpg) center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+html{
+    background: url(../patterns/9.png);
+    background-repeat: repeat;
+}
+#containerimg3{
+    background: url(../img/desenfoque.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#containerimg4{
+    background: url(../patterns/dark9.png);
+    background-repeat: repeat;
+}
+
+/*EMPIEZA BARRA EMPIEZA BARRA EMPIEZA BARRA EMPIEZA BARRA EMPIEZA BARRA EMPIEZA BARRA EMPIEZA BARRA */
+#menuprincipal{
+	margin-top: -50px;
+    z-index: 1;
+    position: fixed;;
+    width: 100%;
+}
+header{
+	width: 100%;
+}
+
+nav{
+	margin:0px auto;
+	width: 90%;
+	max-width:600px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	height: 40px; /*modifique al doble de los a para altura deseada*/
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav > ul {
+	display:table;
+	overflow: hidden;
+	width: 100%;
+	background: #e74c3c; /* IMPORTANTE color fondo*/
+	position: relative; /*menu desplegable*/
+}
+
+nav > ul li{
+	display: table-cell; /*posicion de tabla celda es decir un elemento de lado de otro midan lo mismo*/
+}
+
+nav > ul li a{
+	display:block;
+	line-height:20px;
+	padding: 10px; /*ocupamos el padding para centrar en este caso*/
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;/*se ocupo pagina para generar*/
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	height: 20px; /*modifica el total del tamaño en cuanto a altura*/
+    color:black; /*color de los elementos letras OJO LUEGO NO RESP*/
+}
+
+nav > ul > li > a span{
+	background: black; /* #faa79b COLOR DELANTERO*/
+	color: white; /*color letra (icono)*/
+	display: block;
+	height: 100%;
+	width: 100%;
+	left:0;
+	position: absolute;
+	top:-40px;
+	-webkit-transition: all .5s ease;/*se ocupo pagina para generar*/
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	height: 40px; /*modifique para conseguir altura desaeada*/
+}
+
+nav > ul > li > a span{
+	display: block;
+	line-height: 40px;
+}
+
+nav > ul > li > a:hover > span{
+	top:0;
+}
+
+.main>.slides{
+    margin-top: -60px;
+}
+
+/*TERMINA BARRA TERMINA BARRA TERMINA BARRA TERMINA BARRA TERMINA BARRA TERMINA BARRA TERMINA BARRA */
+
+#imgprincipal{
+    margin: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#imgprincipal2{
+    height: 125px;
+    width: 110px;
+    -moz-border-radius: 70px; /**circulo**/
+   -webkit-border-radius: 70px; /**circulo**/
+   border-radius: 70px;/**circulo**/
+}
+
+#nombreprincipal{
+    text-align: Center;
+    font-family: Pacifico;
+    font-size: 70px;
+}
+
+#nombredescripcion{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 15px;
+    max-width: 60p
+}
+
+.iconostop{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#top1,#top2,#top3,#top4,#top5{
+    display: inline;
+}
+
+.icon-facebook-circled,.icon-twitter-circled,.icon-gplus-circled,.icon-linkedin-circled,.icon-pinterest-circled{
+
+    font-size: 30px;
+    color: black;
+    -webkit-transition: .85s;
+    -webkit-box-shadow: inset 0px 0px 20px 990099;
+}
+
+.icon-facebook-circled:hover{
+    color: #3b5898;
+}
+
+.icon-twitter-circled:hover{
+    color: #5aa8df;
+}
+
+.icon-gplus-circled:hover{
+    color: #de4931;
+}
+
+.icon-linkedin-circled:hover{
+    color: #0073b5;
+}
+
+.icon-pinterest-circled:hover{
+    color: #CB2027;
+}
+/*TERMINA SECCION1 TERMINA SECCION1 TERMINA SECCION1 TERMINA SECCION1 TERMINA SECCION1 TERMINA SECCION1 TERMINA SECCION1 */
+
+/*INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2 INICIA SECCION 2  */
+#nombre
+{
+	background: #e74c3c; /*fondo colores RGB*/
+	border-radius: 0px 5px 5px 0px; /*contorno del borde*/
+    height: 95px; /*altura de nuestro rectangulo*/
+    left: 0;
+	margin: 5px 0px 5px 0px; /*margen inicia por el reloj*/
+    max-width: 700px; /*maximo de ancho permitido*//*se pueden manejar porcentajes*/
+    min-width: 200px; /*minimo de ancho permitido*/
+	padding: 0px 0px 0px 0px; /*margen letras con respecto al borde*/ 
+    transform: skewX(0deg) skewY(0deg) rotate(-2deg);/*rotacion del rectangulo*/
+	text-align: center;
+}
+
+#nombre{
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+#carrera{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    transform: skewX(0deg) skewY(0deg) rotate(2deg)
+}
+
+#name{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    transform: skewX(0deg) skewY(0deg) rotate(2deg)
+}
+
+#personal{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    background: url(../patterns/grid.png);
+    border-radius: 0px 5px 5px 0px ;
+    height: 60px;
+    max-width: 400px;
+    min-width: 100px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    top: 200px;
+    transform: skewX(0deg) skewY(0deg) rotate(-2deg)
+}
+
+
+#personal1,#personal21,#personal3,#personal4{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    transform: skewX(0deg) skewY(0deg) rotate(2deg)
+}
+
+#table1{
+    margin-top: 50px;
+}
+
+#personal2{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 40px;
+}
+
+#per1{
+    Color: #7c848c;
+    font-family: 'Comfortaa', cursive;
+    font-size: 13px;
+    line-height: 1.9em;/**interlineado**/
+    margin-left: 30px;
+}
+
+#per2{
+    Color: #7c848c;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 30px;
+    line-height: 1.5em;
+}
+
+#per3{
+    Color: black;
+    margin-left: 30px;
+    line-height: 7.5em;
+    font-size: 30px;
+    font-family: 'Montez', cursive;
+}
+
+
+/*hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos hobbie e iconos */
+
+#hobbies{
+    border-collapse: separate;
+    border-spacing:  80px 60px;
+}
+
+.icon-book,.icon-camera-retro,.icon-desktop,.icon-cutlery,.icon-headphones,.icon-plane,.icon-paintbrush,.icon-video-camera,.icon-bicycle{
+    vertical-align: middle; /*alineamos verticalmente los iconos*/
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px /*damos un margen de 10px para c/icono */
+    margin-left: 30px;
+    margin-top: -100px;
+    color: black;
+    text-align: center;
+    padding: 30px; /*se aumento el padding para poder centrar los iconos*/
+    width: 50px;
+    background-color: #ffcd08;
+    -moz-border-radius: 70px; /**circulo**/
+   -webkit-border-radius: 70px; /**circulo**/
+   border-radius: 80px;/**circulo**/
+    -webkit-transition: .5s;
+    -webkit-box-shadow: inset 0px 0px 20px 990099;  
+}
+
+.descrip{
+    font-size: 13px;
+}
+
+.icon-book:hover,.icon-camera-retro:hover,.icon-desktop:hover,.icon-cutlery:hover,.icon-headphones:hover,.icon-plane:hover,.icon-paintbrush:hover,.icon-video-camera:hover,.icon-bicycle:hover{
+    background-color: #ffa100;/**cambiar color del background a naranja**/
+}
+
+/*flexbox de hobbies e intereses *flexbox de hobbies e intereses *flexbox de hobbies e intereses *flexbox de hobbies e intereses *flexbox de hobbies e intereses *flexbox de hobbies e intereses */
+
+/*seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 seccion 2 */
+
+/*gerarquia 1 gerarquia 1 gerarquia 1 gerarquia 1 gerarquia 1 gerarquia 1 */
+.containergral{
+    
+    flex-wrap: wrap;
+    flex-direction:column;
+    
+    align-items: center;
+    justify-content: center;
+
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+/*gerarquia 2 gerarquia 2 gerarquia 2 gerarquia 2 gerarquia 2 gerarquia 2 querarquia 2*/
+.container1{ 
+    
+    flex-wrap: wrap;
+
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.container2{
+    
+    margin: 0px;
+    align-items: center;
+
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+#personal{
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+#personal1{
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+
+.container3{
+    
+    flex-wrap: wrap;
+
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.container4{
+    
+    flex-wrap: wrap;
+
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+/*gerarquia 3 gerarquia 3 gerarquia 3 gerarquia 3 gerarquia 3 gerarquia 3 gerarquia 3 gerarquia 3 */
+
+.table1,.table2{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+
+
+
+/*TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2 TERMINA SECCION 2   */
+
+
+.escuela{
+    text-align: center;
+    height: 250px;
+    margin: 3px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.escuela1{
+        background: url(../img/univo.jpg);
+}
+.escuela2{
+        background: url(../img/preparatoria6.jpg);
+}
+.escuela3{
+        background: url(../img/secundaria2.jpg);
+}
+.escuela4{
+        background: url(../img/primaria5.jpg);
+}
+
+.escuela1,.escuela2,.escuela3,.escuela4{
+    
+    flex-direction: column;
+    background-size: 300px 250px;
+    overflow: hidden;/*para que se oculte y hacer el efecto hover*/
+}
+
+
+
+.escuela1:hover .escu1,.escuela1:hover .escu2{/*Efector Hover de lugar1 a place 1 y place 2*/
+    top: 0;
+}
+.escuela2:hover .escu3,.escuela2:hover .escu4{/*Efector Hover de lugar1 a place 1 y place 2*/
+    top: 0;
+}
+.escuela3:hover .escu5,.escuela3:hover .escu6{/*Efector Hover de lugar1 a place 1 y place 2*/
+    top: 0;
+}
+.escuela4:hover .escu7,.escuela4:hover .escu8{/*Efector Hover de lugar1 a place 1 y place 2*/
+    top: 0;
+}
+
+.escu1,.escu3,.escu5,.escu7{
+    
+    font-size: 25px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .75);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    
+}
+
+.escu2,.escu4,.escu6,.escu8{
+    font-size: 17px;
+    color: white;
+    width: 90%;
+    background-color: rgba(0, 0, 0, .75);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    
+    display: flex;/*indicamos que la caja sea flexible*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.escu1,.escu2,.escu3,.escu4,.escu5,.escu6,.escu7,.escu8{
+    width: 100%;
+    height: 100%;
+    position: relative; /*no desarma el flexbox y para poder hacer el top*/
+    top: 100%;/*empujamos hacia abajo*/
+    transition: all .7s;
+}
+
+/*seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4 seccion 4*/
+
+
+
+.icon-android-contact{
+    font-size: 60px;
+    color: #e74c3c;
+}
+
+#job{
+    line-height: 1.9em;
+    font-size: 25px;
+    margin-left: 11%;
+    margin-top: -74px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    padding: 0px 0px 0px 15px;
+    color: white;
+}
+
+#cargo{
+    margin-left: 11%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 12px;
+    color: black;
+    padding: 0px 0px 0px 15px;
+    width: 350px;
+    line-height: 1.5em;
+    color: white;
+}
+
+
+#habilidades{
+    color: Black;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 400px; /*ANCHO DE TODA LA TABLA PARA NO CREAR OTRA PROPIEDAD*/
+    color: white;
+}
+
+#lenguaje{
+    color: black;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2.5em;
+    color: white;
+}
+
+.progreso{
+    border: 3px solid white;
+    border-radius: 3px;
+    position: relative;
+}
+
+.phtml5,.pcss3,.pflex,.pphp,.pjava,.pphoto,.pingles{
+    background: #e74c3c;
+    height: 24px;
+}
+
+.phtml5{
+    width: 90%;
+}
+
+.pcss3{
+    width: 80%;
+}
+
+.pflex{
+    width: 80%;
+}
+
+.pphp{
+    width: 50%;
+}
+
+.pjava{
+    width: 50%;
+}
+
+.pphoto{
+    width: 70%;
+}
+
+.pingles{
+    width: 75%;
+}
+
+#sos{
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3.5em;
+    width: 400px;
+}
+
+#sos2{
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    width: 400px;
+    font-size: 17px;
+    line-height: 2em;
+}
+
+#sistemas{
+
+    margin-left: 10px;
+    Display: inline-block;
+    background: #e74c3c;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    -webkit-transition: .5s;
+    -webkit-box-shadow: inset 0px 0px 20px 990099;   
+}
+
+#sistemas:hover{
+    background-color: #5ab9a3;
+}
+
+
+/*seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima *seccion ultima  */
+
+#sigueme,#direccion{
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #ffb800;
+}
+
+.icon-facebook,.icon-twitter,.icon-google-plus,.icon-linkedin,.icon-pinterest-p{
+     font-size: 25px;
+    color: #25b7ed;
+    -webkit-transition: .85s;
+    -webkit-box-shadow: inset 0px 0px 20px 990099;
+}
+
+.icon-facebook:hover{
+    color: #3b5898;
+}
+
+.icon-twitter:hover{
+    color: #5aa8df;
+}
+
+.icon-google-plus:hover{
+    color: #de4931;
+}
+
+.icon-linkedin:hover{
+    color: #0073b5;
+}
+
+.icon-pinterest-p:hover{
+    color: #CB2027;
+}
+
+.iconosbot{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+#direccion2{
+    padding-left: 10px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 400px;
+    color: white;
+}
+
+.icon-ios-home{
+    font-size: 50px;
+    color: #25b7ed;
+}
+
+#contactame{
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #ffb800;
+}
+#direccion3{
+    padding-left: 15px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 200px;
+    color: white;
+}
+
+.icon-phone,.icon-envelope,.icon-whatsapp,.icon-skype-circled{
+    font-size: 25px;
+    color: #25b7ed;
+}
